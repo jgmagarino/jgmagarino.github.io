@@ -1,0 +1,48 @@
+.contenedor{
+    padding: 2rem;
+    display: block;
+    background: white;
+}
+@media (min-width: 900px) {
+    .content{
+        width-max: 90% ;
+        display: flex;
+    }
+    section{
+        flex: 1;
+        padding: 1rem;
+        justify-content: center;
+    }
+}
+
+.encabezado{
+    background: cadetblue;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+.contLeng{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+.lenguajes{
+    display: inline-block;
+    background: grey;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+.tituloSection{
+    font-size: 1.5rem;
+}
+
+.tituloSection::after{
+    content: '';
+    display: block;
+    width: 90%;
+    height: .1rem;
+    background-color:darkslategrey;
+    margin-top: .5rem;
+}
